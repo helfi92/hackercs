@@ -1,0 +1,13 @@
+<ion-view view-title="{{subCategorie.name}}">
+  <ion-content class="padding">
+    
+      <ion-item collection-repeat="item in subCategorie.link">
+
+          <div class="video-container">
+              <iframe ng-src="{{trustSrc(item.src)}}" frameborder="0" width="560" height="315"></iframe>
+          </div>
+
+      </ion-item>
+    
+  </ion-content>
+</ion-view>
