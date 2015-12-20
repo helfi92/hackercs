@@ -3,6 +3,9 @@ angular.module('starter.services', [])
 .factory('Categories', function() {
   // Might use a resource here that returns a JSON array
 
+
+
+
   // Some fake testing data
   var categories = [{
     id: 0,
@@ -228,6 +231,7 @@ angular.module('starter.services', [])
     },
     
     getSubCategories: function(categorieId) {
+      
       for (var i = 0; i < categories.length; i++) {
         if (categories[i].id === parseInt(categorieId)) {
           return categories[i];
@@ -251,6 +255,7 @@ angular.module('starter.services', [])
 
 
     },
+
 
   };
 });

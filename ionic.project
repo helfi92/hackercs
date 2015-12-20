@@ -1,4 +1,14 @@
 {
   "name": "hackercs",
-  "app_id": ""
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/videos",
+      "proxyUrl": "http://localhost:3000/videos"
+    },
+    {
+      "path": "/modules",
+      "proxyUrl": "http://localhost:3000/modules"
+    }
+  ]
 }

@@ -9,10 +9,10 @@
       </div>
     </div>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="categorie in categories" type="item-text-wrap" href="#/tab/chapter/{{categorie.id}}">
-        <img ng-src="{{categorie.face}}">
-        <h2>{{categorie.name}}</h2>
-        <p>{{categorie.lastText}}</p>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="categorie in modules" type="item-text-wrap" href="#/tab/chapter/{{categorie.id}}">
+        <img ng-src="{{logo}}">
+        <h2>{{categorie.module_title}}</h2>
+        <p>{{categorie.module_description}}</p>
         <i class="icon ion-chevron-right icon-accessory"></i>
       </ion-item>
     </ion-list>

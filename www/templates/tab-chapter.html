@@ -1,16 +1,18 @@
     
-<ion-view view-title="{{categorie.name}}">
+<ion-view view-title="{{currentModule.module_title}}">
   <ion-content class="padding">
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="item in categorie.subCategories" type="item-text-wrap" href="#/tab/chapter/{{categorie.id}}/video/{{item.id}}">
-        <img ng-src="{{item.face}}">
-        <h2>{{item.name}}</h2>
-        <p>{{item.lastText}}</p>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="item in container" type="item-text-wrap" href="#/tab/chapter/{{currentModule.id}}/video/{{item.id}}">
+        <img ng-src="{{logo}}">
+        <h2>{{item.video_description}}</h2>
+        <p>Part {{item.video_part}} / {{container.length}}</p>
         <i class="icon ion-chevron-right icon-accessory"></i>
 
         
       </ion-item>
     </ion-list>
+
+    
     
   </ion-content>
 </ion-view>
