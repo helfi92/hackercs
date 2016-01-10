@@ -3,7 +3,7 @@ angular.module('starter.controllers', ['ngSanitize'])
 .controller('homeCtrl',['$scope','$http','$rootScope' ,function($scope,$http,$rootScope) {
   $rootScope.videos = [];
   $rootScope.modules= [];
-  $rootScope.logo = 'http://hackercs.com/media/videos/hackercslogo_resizedsquare.png';
+  $rootScope.logo = 'img/hackercsLogo.png';
  
   // $http.get('/videos').then(function(res){
   //   $rootScope.videos = res.data;
