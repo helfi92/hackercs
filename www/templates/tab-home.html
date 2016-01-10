@@ -1,15 +1,7 @@
 <ion-view view-title="Computer Science Video Tutorials">
   <ion-content class="padding">
-    <div class="list card">
-      <div class="item item-divider">Recent Updates</div>
-      <div class="item item-body">
-        <div>
-          Hacker CS is a free online database of Computer Science video tutorials.</b>
-        </div>
-      </div>
-    </div>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="categorie in modules" type="item-text-wrap" href="#/tab/chapter/{{categorie.id}}">
+      <ion-item class="item-remove-animate item-avatar item-icon-right item-text-wrap" ng-repeat="categorie in modules" type="item-text-wrap" href="#/tab/chapter/{{categorie.id}}">
         <img ng-src="{{logo}}">
         <h2>{{categorie.module_title}}</h2>
         <p>{{categorie.module_description}}</p>

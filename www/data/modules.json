@@ -1,0 +1,425 @@
+[
+  {
+    "id": 1,
+    "module_title": "Addition Algorithm",
+    "module_description": "An introduction to algorithms using a simple example (addition)",
+    "module_rating": "5.0",
+    "module_raters": "7",
+    "module_views": "1795",
+    "module_published": "2011-02-09T19:06:59.000Z"
+  },
+  {
+    "id": 2,
+    "module_title": "Decimal to Binary Conversion",
+    "module_description": "Technique to convert a decimal number to its binary representation",
+    "module_rating": "5.0",
+    "module_raters": "8",
+    "module_views": "1722",
+    "module_published": "2011-02-09T19:46:51.000Z"
+  },
+  {
+    "id": 3,
+    "module_title": "Array Expansion Time Complexity",
+    "module_description": "Analysis of the operation that expands an array to accommodate more elements",
+    "module_rating": "5.0",
+    "module_raters": "1",
+    "module_views": "938",
+    "module_published": "2011-02-10T03:52:48.000Z"
+  },
+  {
+    "id": 4,
+    "module_title": "Insertion Sort Algorithm and Time Complexity",
+    "module_description": "Analysis of a sorting algorithm (insertion sort)",
+    "module_rating": "5.0",
+    "module_raters": "40",
+    "module_views": "11291",
+    "module_published": "2011-02-04T18:34:31.000Z"
+  },
+  {
+    "id": 5,
+    "module_title": "The List Abstract Data Type (ADT)",
+    "module_description": "Analysis of the different implementation of the list ADT and the time complexities associated with its operations.",
+    "module_rating": "5.0",
+    "module_raters": "9",
+    "module_views": "4643",
+    "module_published": "2011-02-10T04:52:53.000Z"
+  },
+  {
+    "id": 6,
+    "module_title": "Stack and Queue Abstract Data Types (ADT)",
+    "module_description": "Review of stacks and queues and an analysis of their implementations.",
+    "module_rating": "4.875",
+    "module_raters": "39",
+    "module_views": "6493",
+    "module_published": "2011-01-26T19:08:46.000Z"
+  },
+  {
+    "id": 7,
+    "module_title": "Mathematical Induction (Proof by Induction)",
+    "module_description": "Introduction to a method of proving mathematical statements (induction)",
+    "module_rating": "4.909091",
+    "module_raters": "44",
+    "module_views": "10379",
+    "module_published": "2011-01-28T19:49:46.000Z"
+  },
+  {
+    "id": 8,
+    "module_title": "Recursive Decimal to Binary Conversion",
+    "module_description": "Analysis of a recursive decimal to binary conversion algorithm",
+    "module_rating": "5.0",
+    "module_raters": "8",
+    "module_views": "3797",
+    "module_published": "2011-02-11T04:03:54.000Z"
+  },
+  {
+    "id": 9,
+    "module_title": "Recursive Power Algorithm",
+    "module_description": "Study of a recursive algorithm to compute the power of a number",
+    "module_rating": "5.0",
+    "module_raters": "7",
+    "module_views": "1334",
+    "module_published": "2011-02-11T04:35:28.000Z"
+  },
+  {
+    "id": 10,
+    "module_title": "Recurrences",
+    "module_description": "Study of recurrences and their use in determining the time complexity of recursive algorithms",
+    "module_rating": "4.6848636",
+    "module_raters": "68",
+    "module_views": "19106",
+    "module_published": "2011-02-23T22:14:36.000Z"
+  },
+  {
+    "id": 11,
+    "module_title": "The Tree Abstract Data Type (ADT)",
+    "module_description": "Introduction to the tree abstract data type",
+    "module_rating": "5.0",
+    "module_raters": "16",
+    "module_views": "3298",
+    "module_published": "2011-03-15T02:25:14.000Z"
+  },
+  {
+    "id": 12,
+    "module_title": "Review of Linked Lists",
+    "module_description": "A quick review of linked lists in preparation for the exercises",
+    "module_rating": "5.0",
+    "module_raters": "9",
+    "module_views": "2695",
+    "module_published": "2011-06-03T06:57:50.000Z"
+  },
+  {
+    "id": 13,
+    "module_title": "Binary Trees",
+    "module_description": "Introduction to binary trees",
+    "module_rating": "4.78434883333",
+    "module_raters": "115",
+    "module_views": "23224",
+    "module_published": "2011-03-16T23:55:03.000Z"
+  },
+  {
+    "id": 14,
+    "module_title": "Binary Search Tree",
+    "module_description": "Introduction to the binary search tree and its operations ",
+    "module_rating": "4.8884615",
+    "module_raters": "153",
+    "module_views": "37207",
+    "module_published": "2011-03-17T02:58:47.000Z"
+  },
+  {
+    "id": 15,
+    "module_title": "Priority Queues using Heaps",
+    "module_description": "Introduction to the heap abstract data type and its use in implementing priority queues",
+    "module_rating": "4.87712423333",
+    "module_raters": "76",
+    "module_views": "8704",
+    "module_published": "2011-03-17T04:58:08.000Z"
+  },
+  {
+    "id": 16,
+    "module_title": "Java Interfaces",
+    "module_description": "An introduction to interfaces in Java",
+    "module_rating": "5.0",
+    "module_raters": "28",
+    "module_views": "4292",
+    "module_published": "2011-03-17T04:44:03.000Z"
+  },
+  {
+    "id": 17,
+    "module_title": "Stack Implementation in C using a Linked List",
+    "module_description": "Design and implementation of a stack in C",
+    "module_rating": "4.9761905",
+    "module_raters": "114",
+    "module_views": "20482",
+    "module_published": "2011-06-17T23:42:13.000Z"
+  },
+  {
+    "id": 18,
+    "module_title": "Linked List Remove Function",
+    "module_description": "Implementation of the remove function of a linked list in C",
+    "module_rating": "5.0",
+    "module_raters": "5",
+    "module_views": "4207",
+    "module_published": "2011-06-20T16:04:18.000Z"
+  },
+  {
+    "id": 19,
+    "module_title": "Find the Bugs in Linked List Remove Head Function",
+    "module_description": "Fix the bugs in a given function in C",
+    "module_rating": "5.0",
+    "module_raters": "1",
+    "module_views": "538",
+    "module_published": "2011-06-21T22:23:59.000Z"
+  },
+  {
+    "id": 20,
+    "module_title": "Mth to last Element of a Linked List",
+    "module_description": "Challenge to design a function retrieving the mth to last element of a linked list",
+    "module_rating": "5.0",
+    "module_raters": "1",
+    "module_views": "1183",
+    "module_published": "2011-06-23T18:50:46.000Z"
+  },
+  {
+    "id": 21,
+    "module_title": "List Flattening and Unflattening Brain Teaser",
+    "module_description": "Brain teaser designed to test your skills at handling linked lists C",
+    "module_rating": "4.66666666667",
+    "module_raters": "9",
+    "module_views": "2066",
+    "module_published": "2011-06-24T19:39:11.000Z"
+  },
+  {
+    "id": 22,
+    "module_title": "Cyclic or Acyclic Linked List",
+    "module_description": "Write a function to determine if a linked list is cyclic or acyclic",
+    "module_rating": "5.0",
+    "module_raters": "5",
+    "module_views": "1986",
+    "module_published": "2011-06-28T23:58:58.000Z"
+  },
+  {
+    "id": 23,
+    "module_title": "Binary Search Tree: Find (Lookup) Method",
+    "module_description": "Recursive and non-recursive implementations of the lookup method of a binary search tree",
+    "module_rating": "5.0",
+    "module_raters": "17",
+    "module_views": "4020",
+    "module_published": "2011-07-13T19:27:47.000Z"
+  },
+  {
+    "id": 24,
+    "module_title": "Binary Tree Traversal",
+    "module_description": "Implementation of binary tree traversal algorithms (preorder, postorder, inorder) recursively and non-recursively in Java",
+    "module_rating": "4.775",
+    "module_raters": "36",
+    "module_views": "11263",
+    "module_published": "2011-07-13T19:28:23.000Z"
+  },
+  {
+    "id": 25,
+    "module_title": "Lowest Common Ancestor in a BST",
+    "module_description": "CS challenge to find the lowest common ancestor node of two given nodes in a binary search tree",
+    "module_rating": "4.6",
+    "module_raters": "17",
+    "module_views": "3940",
+    "module_published": "2011-07-13T19:29:05.000Z"
+  },
+  {
+    "id": 26,
+    "module_title": "First Non-Repeated Character in a String",
+    "module_description": "Write a function that finds the first non-repeated character in a given string",
+    "module_rating": "5.0",
+    "module_raters": "4",
+    "module_views": "1416",
+    "module_published": "2011-07-13T19:32:21.000Z"
+  },
+  {
+    "id": 27,
+    "module_title": "Intro to Algorithms",
+    "module_description": "What is an algorithm?",
+    "module_rating": null,
+    "module_raters": null,
+    "module_views": "0",
+    "module_published": ""
+  },
+  {
+    "id": 28,
+    "module_title": "Binary Number Representation",
+    "module_description": "Introduction to binary numbers and the binary system",
+    "module_rating": "5.0",
+    "module_raters": "1",
+    "module_views": "599",
+    "module_published": "2011-08-14T23:09:55.000Z"
+  },
+  {
+    "id": 29,
+    "module_title": "Memory Addressing and Arrays",
+    "module_description": "Introduction to arrays",
+    "module_rating": null,
+    "module_raters": null,
+    "module_views": "0",
+    "module_published": ""
+  },
+  {
+    "id": 30,
+    "module_title": "Recursion",
+    "module_description": "The concept of recursion in computer science",
+    "module_rating": "5.0",
+    "module_raters": "20",
+    "module_views": "2543",
+    "module_published": "2011-08-18T23:06:39.000Z"
+  },
+  {
+    "id": 31,
+    "module_title": "Binary Search",
+    "module_description": "Study of Binary Search, its algorithm and recursive/iterative implementations",
+    "module_rating": "5.0",
+    "module_raters": "23",
+    "module_views": "4335",
+    "module_published": "2011-08-21T03:21:20.000Z"
+  },
+  {
+    "id": 32,
+    "module_title": "Mergesort",
+    "module_description": "",
+    "module_rating": null,
+    "module_raters": null,
+    "module_views": "0",
+    "module_published": ""
+  },
+  {
+    "id": 33,
+    "module_title": "Recursive Fibonacci & Tower of Hanoi",
+    "module_description": "",
+    "module_rating": null,
+    "module_raters": null,
+    "module_views": "0",
+    "module_published": ""
+  },
+  {
+    "id": 34,
+    "module_title": "Big O and Big Omega",
+    "module_description": "",
+    "module_rating": null,
+    "module_raters": null,
+    "module_views": "0",
+    "module_published": ""
+  },
+  {
+    "id": 35,
+    "module_title": "Heaps and Heapsort",
+    "module_description": "",
+    "module_rating": null,
+    "module_raters": null,
+    "module_views": "0",
+    "module_published": ""
+  },
+  {
+    "id": 36,
+    "module_title": "Maps and Hashes",
+    "module_description": "",
+    "module_rating": null,
+    "module_raters": null,
+    "module_views": "0",
+    "module_published": ""
+  },
+  {
+    "id": 37,
+    "module_title": "Graphs and Graph Traversal",
+    "module_description": "",
+    "module_rating": null,
+    "module_raters": null,
+    "module_views": "0",
+    "module_published": ""
+  },
+  {
+    "id": 38,
+    "module_title": "Delete Characters from String",
+    "module_description": "Write a function in Java/C# that deletes specific characters from a string.",
+    "module_rating": "5.0",
+    "module_raters": "8",
+    "module_views": "1337",
+    "module_published": "2011-07-21T23:36:23.000Z"
+  },
+  {
+    "id": 39,
+    "module_title": "Reverse Word Order in a String Challenge",
+    "module_description": "Write an efficient function that reverses the words in a strong (common interview problem).",
+    "module_rating": "5.0",
+    "module_raters": "5",
+    "module_views": "2466",
+    "module_published": "2011-07-30T07:39:08.000Z"
+  },
+  {
+    "id": 40,
+    "module_title": "Convert a String to an Integer in Java",
+    "module_description": "Write a method in Java that converts a String to its int representation.",
+    "module_rating": "4.85185176667",
+    "module_raters": "18",
+    "module_views": "4319",
+    "module_published": "2011-08-03T05:14:10.000Z"
+  },
+  {
+    "id": 41,
+    "module_title": "Convert an Integer to a String in Java",
+    "module_description": "Write a method in Java that converts an int to its String representation.",
+    "module_rating": "5.0",
+    "module_raters": "3",
+    "module_views": "1880",
+    "module_published": "2011-08-12T21:22:01.000Z"
+  },
+  {
+    "id": 42,
+    "module_title": "Permutations of a String",
+    "module_description": "Write a method that prints out all the permutations of the characters in a string.",
+    "module_rating": "5.0",
+    "module_raters": "25",
+    "module_views": "4569",
+    "module_published": "2011-08-22T02:55:24.000Z"
+  },
+  {
+    "id": 43,
+    "module_title": "Combinations of a String",
+    "module_description": "Write a method that prints out all the combinations of the characters in a string.",
+    "module_rating": "5.0",
+    "module_raters": "19",
+    "module_views": "2823",
+    "module_published": "2011-08-24T06:43:41.000Z"
+  },
+  {
+    "id": 44,
+    "module_title": "Static Keyword in C",
+    "module_description": "The uses of the keyword \"static\" in C.",
+    "module_rating": "5.0",
+    "module_raters": "3",
+    "module_views": "179",
+    "module_published": "2012-12-16T05:38:46.000Z"
+  },
+  {
+    "id": 45,
+    "module_title": "How to Return an Array in C",
+    "module_description": "Learn 6 ways to return arrays from functions in C",
+    "module_rating": "5.0",
+    "module_raters": "2",
+    "module_views": "165",
+    "module_published": "2012-12-25T01:47:01.000Z"
+  },
+  {
+    "id": 46,
+    "module_title": "Syntax of Structs and Unions in C",
+    "module_description": "Tips on remembering the syntax of structs and unions in C",
+    "module_rating": "5.0",
+    "module_raters": "2",
+    "module_views": "24",
+    "module_published": "2013-01-23T18:46:05.000Z"
+  },
+  {
+    "id": 47,
+    "module_title": "Reading and Writing C Type Declarations",
+    "module_description": "Learn how to read and write C type declarations.",
+    "module_rating": null,
+    "module_raters": null,
+    "module_views": "2",
+    "module_published": "2013-01-31T00:02:28.000Z"
+  }
+]

@@ -4,11 +4,11 @@
   "proxies": [
     {
       "path": "/videos",
-      "proxyUrl": "http://localhost:3000/videos"
+      "proxyUrl": "http://127.0.0.1:3000/videos"
     },
     {
       "path": "/modules",
-      "proxyUrl": "http://localhost:3000/modules"
+      "proxyUrl": "http://127.0.0.1:3000/modules"
     }
   ]
 }

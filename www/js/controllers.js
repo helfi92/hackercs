@@ -1,21 +1,40 @@
 angular.module('starter.controllers', ['ngSanitize'])
 
-.controller('homeCtrl',['$scope','Categories','$http','$rootScope' ,function($scope, Categories,$http,$rootScope) {
-  $scope.categories = Categories.all();
+.controller('homeCtrl',['$scope','$http','$rootScope' ,function($scope,$http,$rootScope) {
   $rootScope.videos = [];
   $rootScope.modules= [];
   $rootScope.logo = 'http://hackercs.com/media/videos/hackercslogo_resizedsquare.png';
  
-  $http.get('/videos').then(function(res){
+  // $http.get('/videos').then(function(res){
+  //   $rootScope.videos = res.data;
+  //   console.log('videos: ', res);
+  // },function(res){
+  //   console.log(err);
+  // });
+  // $http.get('/modules').then(function(res){
+  //   $rootScope.modules = res.data;
+  //   console.log('modules: ', $rootScope.modules);
+  // });
+
+  var url = "";
+  if(ionic.Platform.isAndroid()){
+    url = "/android_asset/www/";
+  }
+  
+
+  $http.get('data/videos.json').then(function(res){
+    console.log('videosjson ', res);
     $rootScope.videos = res.data;
-    console.log('videos: ', res);
   },function(res){
-    console.log(err);
+    console.log('err');
   });
-  $http.get('/modules').then(function(res){
+  $http.get('data/modules.json').then(function(res){
+    console.log('modules ', res);
     $rootScope.modules = res.data;
     console.log('modules: ', $rootScope.modules);
-  });
+  },function(res){
+    console.log('err');
+  })
 
 
 }])
@@ -29,27 +48,28 @@ angular.module('starter.controllers', ['ngSanitize'])
   //$scope.$on('$ionicView.enter', function(e) {
   //});
 
-  $scope.categories = Categories.all();
   $scope.remove = function(chat) {
-    Categories.remove(chat);
   };
 })
 
-.controller('ChapterCtrl', function($scope,$rootScope,$http, $stateParams, Categories) {
+.controller('ChapterCtrl', function($scope,$rootScope,$http, $stateParams) {
   
   $scope.currentModule = $rootScope.modules[$stateParams.categorieId - 1];
   console.log('selected module: ', $scope.currentModule);
   //$scope.categorie = Categories.getSubCategories($stateParams.categorieId);
-  $http.get('/videos').then(function(res){
+  $http.get('data/videos.json').then(function(res){
+    console.log('videosjson ', res);
     $rootScope.videos = res.data;
-    console.log('videos: ', res);
   },function(res){
-    console.log(err);
+    console.log('err');
   });
-  $http.get('/modules').then(function(res){
+  $http.get('data/modules.json').then(function(res){
+    console.log('modules ', res);
     $rootScope.modules = res.data;
     console.log('modules: ', $rootScope.modules);
-  });
+  },function(res){
+    console.log('err');
+  })
   
   $scope.getSubModules = function(categorieId) {
     
@@ -68,7 +88,7 @@ angular.module('starter.controllers', ['ngSanitize'])
 
   console.log('container is: ', $scope.container);
 })
-.controller('VideoCtrl', function($scope, $stateParams, Categories,$sce,$rootScope) {
+.controller('VideoCtrl', function($scope, $stateParams,$sce,$rootScope) {
   $scope.getVideo = function(categorieId,videoId) {
     
     console.log('inside getVideo ', categorieId);
